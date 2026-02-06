@@ -98,7 +98,7 @@ jobs:
         env:
           TRIVY_DISABLE_VEX_NOTICE: "true"
         with:
-          image-ref: kumarmindcres/llm-multiroute:scan
+          image-ref: udayasanthi/llm-multiroute:scan
           format: 'table'
           exit-code: '1'
           severity: 'CRITICAL,HIGH'

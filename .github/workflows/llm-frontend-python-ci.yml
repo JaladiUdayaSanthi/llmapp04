@@ -76,7 +76,7 @@ jobs:
         env:
           TRIVY_DISABLE_VEX_NOTICE: "true"
         with:
-          image-ref: kumarmindcres/llm-frontend-python:scan
+          image-ref: udayasanthi/llm-frontend-python:scan
           format: 'table'
           exit-code: '1'
           severity: 'CRITICAL,HIGH'
